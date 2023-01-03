@@ -372,4 +372,14 @@ button{
 
 }
 
+@media screen and (max-width: 500px) {
+
+  .data{
+    font-size: 15px;
+    margin-top: 15px
+  }
+}
+
+
+
 
