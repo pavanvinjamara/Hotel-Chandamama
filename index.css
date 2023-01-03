@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Great+Vibes&family=Yeseva+One&display=swap');
 
-@import url('https://fonts.cdnfonts.com/css/vivaldi');
 
 *{
   padding: 0;
@@ -113,7 +112,7 @@ button{
 
 
 .data{
-  font-family: "Vivaldi";
+  font-family: "Cinzel";
   font-size: 75px;
   padding: 10px;
 }
