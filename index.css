@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Yeseva+One&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/vivaldi');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  color: white;
+  padding: 18px 20px;
+
+}
+
+.logo{
+  font-size: 40px;
+  font-family: "Yeseva";
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.logo:hover, .navlink:hover, button:hover, .data:hover{
+  color: aquamarine;
+}
+
+.imageLogo{
+  height: 50px;
+}
+
+li{
+  list-style: none;
+  background-color: white;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  line-height: 30px;
+  padding-left: 7px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top:0; left:0; right: 0;
+  z-index: 1;
+  margin-bottom: 20px;
+  padding: 18px 20px;
+  background-color: black;
+}
+
+.menu{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+
+}
+
+.contact > a{
+  font-size: 25px;
+  color: white;
+}
+
+button{
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  border: none;
+  padding-right: 85px;
+}
+
+.navbar{
+  display: flex;
+
+}
+
+.Hidden{
+  display: none;
+}
+
+#info1{
+  width: 100%;
+  height: 700px;
+  padding-left: 300px;
+  display: flex;
+
+  align-items: center;
+}
+
+
+.console-container {
+ font-family: Great vibes;
+ font-size: 40px;
+ 
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+
+.data{
+  font-family: "Vivaldi";
+  font-size: 75px;
+  padding: 10px;
+}
+
+
+
+.artInfo1{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  position: absolute;
+  top: 170px;
+  padding-left: 280px;
+  
+}
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .chickencurry, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%
+}
+
+.info{
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+
+#briyani{
+
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/3e6f1270695227.5babcc8cc4bf0.jpg");
+ 
+}
+
+#chickencurry{
+  
+  background-image: url("https://angrezidhaba.live/images/gallery/food/26.jpg");
+  
+}
+
+
+
+#egg{
+  background-image: url("https://thumbs.dreamstime.com/z/breakfast-scrambled-eggs-fresh-tomatoes-two-slices-bread-dark-background-172751403.jpg");
+  
+}
+
+#friedrice{
+
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/11/b9/47/fb/chicken-fried-rice.jpg");
+ 
+}
+
+#roti{
+  background-image: url("https://t4.ftcdn.net/jpg/02/00/16/83/360_F_200168344_q8hOT7OCE0GOoB8cTJFEGX4Ka1TArIHY.jpg");
+  
+}
+
+#veg{
+  background-image: url("https://as2.ftcdn.net/v2/jpg/02/84/46/89/1000_F_284468940_1bg6BwgOfjCnE3W0wkMVMVqddJgtMynE.jpg");
+  
+}
+
+#dryitems{
+
+  background-image: url("https://media.istockphoto.com/id/1208081427/photo/veg-manchurian-very-popular-chinese-snack-popular-in-india.jpg?s=612x612&w=0&k=20&c=C_Lsxts8SAyGTaMwiAx_S2PEaRzM0V1r93S6FeysW8I=");
+
+}
+
+#noodles{
+  background-image: url("https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bm9vZGxlc3xlbnwwfHwwfHw%3D&w=1000&q=80");
+  
+}
+
+#icecream{
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F05%2F25%2F369214-very-chocolate-ice-cream-Melissa-Goff-4x3-1.jpg");
+}
+
+#main{
+  border-collapse: collapse;
+  overflow: hidden;
+  max-width: 1200px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(168, 166, 166, 0.1);
+}
+
+h2{
+  text-align: center;
+}
+
+#footer{
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  color: white;
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  color: white;
+  text-shadow: 2px 2px 4px rgb(179, 177, 177);
+}
+
+footer > p{
+  margin-bottom: 10px;
+}
+
+#bars, #closebar{
+  display: none;
+}
+
+
+
+@media screen and (max-width: 900px) {
+body,.navlink,#info1,section,p,article,.imageLogo1,.artInfo1,header,.menu,.joinMenu{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  padding: 10px;
+}
+
+header{
+  padding: 15px;
+}
+
+.imageLogo1{
+  width: 220px;
+  height: 220px;
+  top: 0;
+ 
+}
+
+.artInfo1{
+  top: 100px;
+}
+
+.console-container{
+  font-size: 17px;
+  padding-left: 130px;
+}
+
+.data{
+  font-size: 30px;
+  padding-left: 130px;
+  top: 0px;
+}
+
+.logo{
+  font-size: 20px;
+}
+
+.imageLogo{
+  height: 20px;
+}
+
+.contact > a{
+  font-size: 16px;
+  color: black;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.joinMenu{
+  margin-top: 50px;
+  height: fit-content;
+
+}
+
+.navlink{
+  font-size: 16px;
+}
+
+
+button{
+  font-size: 16px;
+  color: black;
+  text-transform: uppercase;
+  padding: 10px;
+}
+#info1{
+  height: 300px;
+}
+
+.price,.flavor {
+  font-size: 10px;
+}
+
+.fa-bars{
+  size: 20px;
+}
+
+.bars{
+  display: block;
+  font-size: 27px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  position: absolute;
+  right: 0;
+  width: 65vw;
+  height: 100vh;
+
+}
+
+.hidde{
+  display: none;
+}
+
+#bars, #closebar{
+  display: block;
+}
+
+.closebar{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  height: 40px;
+}
+.closebar > i {
+  float: right;
+  padding-right: 15px;
+}
+
+.info{
+  background-position: center;
+}
+
+.menu{
+  position: relative;
+  display: block;
+}
+
+}
+
+
